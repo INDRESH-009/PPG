@@ -1,0 +1,21 @@
+# Byte-compiled / generated
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+
+# Environment & IDE
+.env
+.venv
+env/
+.idea/
+.vscode/
+
+# Data artefacts
+data/*
+!data/.gitkeep           # keep empty dirs tracked
+
+# Checkpoints & logs
+checkpoints/
+wandb/
+runs/                    # tensorboard default
